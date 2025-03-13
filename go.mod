@@ -1,6 +1,7 @@
 module github.com/versity/versitygw
 
 go 1.21.0
+toolchain go1.23.7
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.14.0
@@ -22,7 +23,7 @@ require (
 	github.com/urfave/cli/v2 v2.27.4
 	github.com/valyala/fasthttp v1.55.0
 	github.com/versity/scoutfs-go v0.0.0-20240325223134-38eb2f5f7d44
-	golang.org/x/sys v0.24.0
+	golang.org/x/sys v0.30.0
 )
 
 require (
@@ -48,9 +49,9 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
-	golang.org/x/crypto v0.26.0 // indirect
-	golang.org/x/net v0.28.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 )
 
